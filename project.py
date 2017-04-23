@@ -128,7 +128,7 @@ if __name__ == '__main__':
     my_file2 = Path("dict2.p")
     my_file3 = Path("allwords.p")
     remake = False
-    y = input("Do you want to customize the number of seasons? (y/n)")
+    y = input("Do you want to customize the number of seasons (y/n)?: ")
     if y.lower() == 'y':
         max_seasons = input("How many seasons do you want?: ")
         remake = True
